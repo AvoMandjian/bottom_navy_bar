@@ -136,11 +136,11 @@ class _ItemWidget extends StatelessWidget {
         height: double.maxFinite,
         duration: animationDuration,
         curve: curve,
-        decoration: BoxDecoration(
-          color:
-              isSelected ? item.activeColor.withOpacity(0.2) : backgroundColor,
-          borderRadius: BorderRadius.circular(itemCornerRadius),
-        ),
+        // decoration: BoxDecoration(
+        //   color:
+        //       isSelected ? item.activeColor.withOpacity(0.2) : backgroundColor,
+        //   borderRadius: BorderRadius.circular(itemCornerRadius),
+        // ),
         child: SingleChildScrollView(
           scrollDirection: Axis.horizontal,
           physics: NeverScrollableScrollPhysics(),
